@@ -23,6 +23,8 @@ Pod::Spec.new do |spec|
 
   spec.ios.deployment_target     = '8.0'
   spec.ios.source_files  = "Library/**/*.swift"
+  spec.osx.deployment_target     = '10.12'
+  spec.osx.source_files  = ["Library/Core/StringResource.swift", "Library/Core/Validatable.swift"]
   spec.tvos.deployment_target    = '9.0'
   spec.tvos.source_files  = "Library/**/*.swift"
   spec.watchos.deployment_target = '2.2'
